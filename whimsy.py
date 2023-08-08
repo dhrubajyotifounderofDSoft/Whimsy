@@ -19,7 +19,8 @@ for keys in sorted(dict.keys()):
 print(":Options are present below:")
 option = input("Write your option: ")
 def search_word():
-    search_key = print("Search")
-    if option == "search_word":
-        word_search = dict.get(input("Enter the word:\n"))
-search_word()
+    print("Search")
+    word_search = print(dict[str(input("Enter the word:\n"))])
+    # word_search_output = print(dict[word_search]) # option ⌥
+if option == "search word":
+    search_word()
